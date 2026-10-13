@@ -1,0 +1,37 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: false
+
+media_folder: "images/gallery"
+public_folder: "/images/gallery"
+
+site_url: "https://naimhasan.netlify.app"
+display_url: "https://naimhasan.netlify.app"
+logo_url: "https://naimhasan.netlify.app/images/naim-hasan.jpg"
+
+collections:
+  - name: "gallery_data"
+    label: "Gallery"
+    files:
+      - label: "Gallery Photos"
+        name: "gallery_photos"
+        file: "content/gallery.json"
+        fields:
+          - label: "Photos"
+            name: "photos"
+            widget: "list"
+            summary: "{{fields.title}} — {{fields.category}}"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Slug", name: "slug", widget: "string", hint: "Example: professional-portrait" }
+              - { label: "Photo", name: "image", widget: "image" }
+              - { label: "Alt Text", name: "alt", widget: "string", hint: "Describe the image for SEO and accessibility" }
+              - { label: "Location", name: "location", widget: "string", required: false }
+              - { label: "Photographer", name: "photographer", widget: "string", required: false }
+              - { label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false, required: false }
+              - { label: "Category", name: "category", widget: "select", options: ["Portrait", "Business", "Lifestyle", "Event", "Travel", "Personal", "Other"], default: "Portrait" }
+              - { label: "Short Description", name: "description", widget: "text" }
+              - { label: "Full Details", name: "details", widget: "markdown", required: false }
+              - { label: "SEO Keywords", name: "keywords", widget: "string", required: false, hint: "Comma separated keywords" }

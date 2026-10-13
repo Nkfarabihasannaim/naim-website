@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://naimhasan.netlify.app/</loc><priority>1.0</priority></url>
+  <url><loc>https://naimhasan.netlify.app/about.html</loc><priority>0.8</priority></url>
+  <url><loc>https://naimhasan.netlify.app/services.html</loc><priority>0.8</priority></url>
+  <url><loc>https://naimhasan.netlify.app/saynix-tech-solutions.html</loc><priority>0.8</priority></url>
+  <url><loc>https://naimhasan.netlify.app/portfolio.html</loc><priority>0.7</priority></url>
+  <url>
+    <loc>https://naimhasan.netlify.app/gallery.html</loc><priority>0.8</priority>
+    <image:image><image:loc>https://naimhasan.netlify.app/images/gallery/sample-1.svg</image:loc><image:title>Professional Portrait</image:title></image:image>
+    <image:image><image:loc>https://naimhasan.netlify.app/images/gallery/sample-2.svg</image:loc><image:title>Saynix Work Moment</image:title></image:image>
+    <image:image><image:loc>https://naimhasan.netlify.app/images/gallery/sample-3.svg</image:loc><image:title>Creative Outdoor Shoot</image:title></image:image>
+  </url>
+  <url><loc>https://naimhasan.netlify.app/contact.html</loc><priority>0.7</priority></url>
+</urlset>

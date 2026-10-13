@@ -1,0 +1,37 @@
+NAIM HASAN WEBSITE — GALLERY + ADMIN PANEL SETUP
+
+What is included:
+1. gallery.html — public SEO gallery page.
+2. content/gallery.json — all photo details data.
+3. admin/index.html — secure Decap CMS admin panel.
+4. admin/config.yml — admin fields and upload settings.
+5. images/gallery/sample-1.svg, sample-2.svg, sample-3.svg — demo placeholders.
+6. Updated robots.txt and sitemap.xml.
+7. Existing pages updated with a Gallery navigation link.
+
+How the admin panel works:
+- This uses Netlify Identity + Git Gateway + Decap CMS.
+- After setup, only invited users can login at: https://naimhasan.netlify.app/admin/
+- You can upload photos, edit title, location, photographer, date, category, description and details.
+- Changes are saved to the website repository, then Netlify redeploys the site.
+
+Netlify setup steps:
+1. Upload/deploy this folder to Netlify from GitHub/GitLab.
+2. In Netlify dashboard, open your site.
+3. Go to Site configuration > Identity and enable Identity.
+4. Registration: set to Invite only.
+5. Go to Identity > Services and enable Git Gateway.
+6. Invite your own email from Identity users.
+7. Open /admin/ and login.
+8. Add/edit photos under Gallery > Gallery Photos.
+
+Security note:
+- Do not use a fake JavaScript password for admin. That is not secure.
+- Use Invite-only Netlify Identity so only you or invited people can control the gallery.
+- /admin/ is blocked from robots.txt and has noindex meta.
+
+SEO note:
+- Gallery page is indexable.
+- Admin page is noindex.
+- Use real descriptive alt text, real location, photographer and details for better image SEO.
+- After upload, submit sitemap.xml in Google Search Console.

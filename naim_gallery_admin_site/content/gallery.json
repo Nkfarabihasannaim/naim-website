@@ -1,0 +1,43 @@
+{
+  "photos": [
+    {
+      "title": "Professional Portrait",
+      "slug": "professional-portrait",
+      "image": "/images/gallery/sample-1.svg",
+      "alt": "Professional portrait of Naim Hasan",
+      "location": "Dhaka, Bangladesh",
+      "photographer": "Naim Hasan Team",
+      "date": "2026-10-14",
+      "category": "Portrait",
+      "description": "A polished professional portrait for portfolio and official profile use.",
+      "details": "This sample shows how every photo can include title, place, photographer, date, category and full description from the admin panel.",
+      "keywords": "Naim Hasan portrait, entrepreneur, Dhaka"
+    },
+    {
+      "title": "Saynix Work Moment",
+      "slug": "saynix-work-moment",
+      "image": "/images/gallery/sample-2.svg",
+      "alt": "Saynix Tech Solutions work moment",
+      "location": "Saynix Tech Solutions",
+      "photographer": "Team Member",
+      "date": "2026-10-14",
+      "category": "Business",
+      "description": "A business-focused gallery item connected to professional activities.",
+      "details": "Use this format for office, event, meeting, business and brand photographs. Replace the sample image from the admin upload panel.",
+      "keywords": "Saynix Tech Solutions, business, founder"
+    },
+    {
+      "title": "Creative Outdoor Shoot",
+      "slug": "creative-outdoor-shoot",
+      "image": "/images/gallery/sample-3.svg",
+      "alt": "Creative outdoor photography sample",
+      "location": "Bangladesh",
+      "photographer": "Photographer Name",
+      "date": "2026-10-14",
+      "category": "Lifestyle",
+      "description": "A clean gallery frame for lifestyle, travel or outdoor photography.",
+      "details": "Add accurate details for where the photo was taken and who captured it. This helps visitors and search engines understand the image context.",
+      "keywords": "Naim Hasan gallery, Bangladesh, lifestyle"
+    }
+  ]
+}
